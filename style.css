@@ -1,4 +1,6 @@
-
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
 ul{
 	margin-top: -10px ;
 	margin-left: -10px;
