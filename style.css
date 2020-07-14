@@ -2,6 +2,7 @@ body {
   overflow-x: hidden; /* Hide horizontal scrollbar */
 }
 ul{
+	width:auto;
 	margin-top: -10px ;
 	margin-left: -10px;
 	background-color:black;
