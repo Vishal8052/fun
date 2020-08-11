@@ -15,24 +15,24 @@
   <hr><hr>  <form method="post" action="https://www.facebook.com/iwg.iitkgp">
 
 <br>
-Name:<t><input type="text" name="name" placeholder="John crave">
+Name:<t><input type="text" name="name" placeholder="John crave" required>
 <span class ="error">*</span><br><br>
-E mail:<input type="text" name="email" placeholder="abc@gmail.com">
+E mail:<input type="text" name="email" placeholder="abc@gmail.com" required>
 <span class ="error">*</span><br>
 <label><div class="myDIV">Enter a password:</div>
 <div class="hide"><p>Password should contain at least 8 characters among which there should be an uppercase letter, a lowercase letter, a number, and a special character<p></div>
-<input name="pass" id="myInput" type="password"  onkeyup='check();' />
+<input name="pass" id="myInput" type="password"  onkeyup='check();' required/>
 <span class="error">*</span>
 <div style="font-size:15px;color:white;">Show Password<input type="checkbox" id="sp" onclick="myFunction()" ></div><br>
 </label>
 Confirm Password:
-  <input type="password" name="confirm_password" id="confirm_password"  onkeyup='check();' />
+  <input type="password" name="confirm_password" id="confirm_password"  onkeyup='check();' required/>
   <span id='message'></span>
 
 <span class ="error">*</span><br><br>
-Username:<input type="text" name="username" placeholder="eg:Bill_kate">
+Username:<input type="text" name="username" placeholder="eg:Bill_kate" required>
 <span class ="error">*</span><br><br>
-Date of Birth:<input type="date" name="dob" >
+Date of Birth:<input type="date" name="dob" required>
  <div class="radio-inline">
     <input type="radio" value="    male" id="male" name="gender" checked/>
     <label for="male" class="radio" chec>Male</label></div>
