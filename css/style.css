@@ -1,0 +1,233 @@
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+ul{
+	margin-top: -10px ;
+	margin-left: -10px;
+	margin-right: -10px;
+	background-color:black;
+	overflow: hidden;
+	padding: 10px;
+    width: auto;
+}
+a{
+	display: block;
+	padding: 8px;
+}
+li:hover{
+	background-color:orange;
+	color:black;
+}
+
+li a{
+	display: inline;
+	color:white;
+	text-decoration: none;
+}
+
+li{
+	font-family:'Indie Flower', cursive;
+	display: inline;
+	padding: 5px ;
+	text-align: center;
+    font-size: 16px;
+    border-right: 1px double white;
+}
+li:last-child{
+	border-right: none;
+}
+.box{
+  font-size: 20px;
+  color: white;
+  margin:0 ;
+  width:auto;
+  height: 550px;
+  padding:20px;
+  background-color:rgba(255, 255, 255,0.5);
+  border:2px solid #333;
+  border-radius: 10px
+}
+.active{
+background-color:red;
+color:white;
+	}
+.quiz{
+display: none;
+}
+.img{
+background-color: rgb(40,40,40);
+margin-left: 700px;
+margin-top: 10px;
+position: absolute;
+background-image: url('../images/moon.jpg');
+background-size: 100%;
+width: 250px;
+height: 250px;
+border:20px solid rgb(40,40,40) ;
+border-radius: 10px;
+}
+.intro{
+	position:absolute;
+	margin:350px 10px 0px 10px;
+	font-size: 20px;
+	color:black;
+	font-weight: bold;
+	font-family: Courier New;}
+.web{
+font-family:Bookman;
+color:black;
+font-size: 35px;
+margin-left:-185px; 
+margin-top: 30px;
+font-weight:bold;	
+}
+.half{
+margin-top: 250px ;
+position:absolute;
+background-image: url('../images/bas.png');
+height: 900px;
+width: 490px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  float: left;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: blue;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+@media only screen and (min-width:1200px) {
+ul{
+	margin-top: -10px ;
+	margin-left: -10px;
+	margin-right: -10px;
+	background-color:black;
+	overflow: hidden;
+	padding: 10px;
+
+}
+a{
+	display: block;
+	padding: 8px;
+}
+li:hover{
+	background-color:orange;
+	color:black;
+}
+
+li a{
+	display: inline;
+	color:white;
+	text-decoration: none;
+}
+
+li{
+	font-family:'Indie Flower', cursive;
+	display: inline;
+	padding: 50px ;
+	text-align: center;
+    font-size: 30px;
+    border-right: 1px double white;
+    border-bottom: 1px double white;
+    
+}
+li:last-child{
+	border-right: none;
+}
+.box{
+  font-size: 20px;
+  color: white;
+  margin:0 ;
+  width:800px;
+  height: 550px;
+  padding:20px;
+  background-color:rgba(255, 255, 255,0.5);
+  border:2px solid #333;
+  border-radius: 10px
+}
+.active{
+background-color:red;
+color:white;
+	}
+.quiz{
+display: none;
+}
+.img{
+background-color: rgb(40,40,40);
+margin-left: 50px;
+margin-top: 50px;
+position: absolute;
+background-image: url('../images/me.jpg');
+background-size: 100%;
+width: 350px;
+height: 350px;
+border:20px solid rgb(40,40,40) ;
+border-radius: 10px;
+}
+.intro{
+	position: absolute;
+	margin:100px 100px 100px 500px;
+	font-size: 20px;
+	color:white;
+	font-family: Courier New;
+}
+
+.half{
+margin-top: 300px ;
+position:absolute;
+background-image: url('../images/bas.png');
+height: 430px;
+width: 1500px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  float: left;
+}
+.fa:hover {
+    opacity: 0.7;
+}
+.fa-facebook {
+  background: blue;
+  color: white;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.contact{
+position: absolute;
+ margin:-20px 400px -10px 650px;
+}
+#cont{
+font-size: 40px;
+color: blue;
+margin-top: 600px;
+position: relative;
+}
+}

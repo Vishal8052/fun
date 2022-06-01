@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Our Gallery</title>
+	<link rel="stylesheet" type="text/css" href="../css/gallsty.css">
+
+</head>
+<body onload="showIm(1)" style="background-color: grey">
+	<script>
+		ner=0;
+		var count=1;
+function showIm(k){
+			var i;
+			if(ner==0)
+			{
+				window.alert("Bigger the screen, greater will the fun !");
+			}
+			ner+=1;
+			var im =document.getElementsByClassName("slid");
+			if(k > im.length)
+			{
+			 count=1;
+			}
+			if(k<1)
+			{
+				count=im.length;
+			}
+			for(i=0;i<im.length;i++)
+			{
+				im[i].style.display="none";
+			}
+			im[count-1].style.display="block";
+		        }
+		 function forward(num){
+		     showIm(count+=num);
+		 }
+	</script>
+
+<div align="left" >
+    <ul >
+    	<li ><a href="my.html" >Home</a></li>
+    	<li><a href="Quiz.html">Have a Quiz</a></li>
+    	<li><a href="https://vishal8052.github.io/ludo-game/ludo.html">Play Ludo</a></li>
+    	<li class="active"><a href="Image-slide.html">Gallery</a></li>
+    	<li><a href="log-in.html">Join me</a></li>
+  </div>
+
+ <div id="opa"> <p style="font-size: 80px;font-family: courier new;margin-top: 80px;opacity:1;font-weight: bold" align="center">Welcome To Our Gallery.</p>
+<p style="font-size: 40px;font-family: courier new;margin-top:-80px;background-color: yellow;" align="center" >Please your eyes with lovely images.<br>Just Hover</p>
+
+ </div>
+ <p style="font-size: 60px;font-family: Bookman" align="center" ><b>The Dancing Deers</b><p style="font-size: 20px;font-family: 'Indie Flower', cursive;margin-top: -50px" align="center">Just tuning with your rhythm </p></p></p>
+ <div id="love" style="background-image:url('../images/deer.png');position: relative;height: 900px; width: 100%;margin-left: -10px;"></div>
+ </div>
+ <p style="font-size: 60px;font-family: Bookman" align="center" ><b>The Bulging Ships</b>
+ 	<p style="font-size: 20px;font-family: 'Indie Flower', cursive;margin-top: -50px" align="center">As if coming for you</p></p>
+
+    <img id="zoom" class="column" style="background-image:url('../images/Kike.png');height: 700px"></img>
+   <p style="font-size: 60px;font-family: Bookman" align="center" ><b>The Nothing</b>
+ 	<p style="font-size: 20px;font-family: 'Indie Flower', cursive;margin-top: -50px" align="center">Shuuuuuush!!!!!</p></p>
+	<div  class="column" style="position: absolute;">
+	 <img id="cf" src="../images/pirates.jpg" style="height: 1000px;width: 650px" >
+	 <img id="cf" src="../images/solar.jpg" style="height: 1000px;width: 600px">
+	 
+	</div>
+<p style="font-size: 60px;font-family: Bookman;margin-top: 1050px" align="center" ><b>The mind stuffs</b>
+ 	<p style="font-size: 20px;font-family: 'Indie Flower', cursive;margin-top: -50px" align="center">Love is Omnipotent!</p></p>
+<div id="no">
+<div align="center" >
+<button class="nextR1" onclick="forward(-1)" >></button>
+<img class="slid"  src="../images/q3.jpg"></img>
+<img class="slid"  src="../images/q1.png"></img>
+<img class="slid"  src="../images/q2.jpg"></img>
+<img class="slid"  src="../images/q4.jpg"></img>
+<img class="slid"  src="../images/q5.jpg"></img>
+<img class="slid"  src="../images/q6.jpg"></img>
+<img class="slid"  src="../images/q7.jpg"></img>
+<img class="slid"  src="../images/q8.jpg"></img>
+<button  onclick="forward(+1)"  class="nextR2"><</button>
+</div>
+</div>
+</body>
+</html>
